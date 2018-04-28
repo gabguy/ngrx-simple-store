@@ -1,0 +1,11 @@
+<form [formGroup]="nameForm" (submit)="submitForm()">
+  <div>
+    <label>Name:</label>
+    <input formControlName="name" />
+  </div>
+  <div>
+    <label>Age:</label>
+    <input formControlName="age" />
+  </div>
+  <button type="submit">Add</button>
+</form>

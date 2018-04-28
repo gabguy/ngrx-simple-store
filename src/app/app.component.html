@@ -1,0 +1,6 @@
+<div>
+  <ns-name-form (save)="addPerson($event)"></ns-name-form>
+</div>
+<div>
+  <ns-name-display [people]="people$ | async"></ns-name-display>
+</div>
